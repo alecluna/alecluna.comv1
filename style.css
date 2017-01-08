@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-
-
 }
 
 body {
@@ -14,12 +12,11 @@ body {
 }
 
 h1 {
+    display: block-inline;
     margin: 50%;
+    text-align: center;
     color: #fff;
-    border: 1px solid white;
-    display: inline;
-    position: center;
-
+    border: solid 1px white;
 }
 
 .accordian {
