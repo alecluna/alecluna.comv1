@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-
-
 }
 
 body {
@@ -13,13 +11,17 @@ body {
 	font-family: arial, verdana, tahoma;
 }
 
-h1 {
-    margin: 50%;
-    color: #fff;
-    border: 1px solid white;
-    display: inline;
-    position: center;
-
+h1, .otherinfo, .paragraph {
+    width: 400px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 10px;
 }
 
 .accordian {
@@ -27,7 +29,7 @@ h1 {
 	overflow: hidden;
 	
 
-    margin: 100px auto;
+    margin: 100px auto; 
     border-radius: 10px;
 	
 }
@@ -48,19 +50,5 @@ accordian ul { width: 2000px;}
 .accordian ul:hover li {width: 90px;}
 .accordian ul li:hover {width: 640px;}
 
-.paragraph {
-    width: 400px;
-    line-height: 2em;
-    letter-spacing: 1px;
-    text-align: auto;
-    margin: auto;
-    padding: 20px;
-    position: center;
-    color: #fff;
 
-}
 
-.otherinfo { 
-    text-align: center;
-    margin: 0px;
-}
