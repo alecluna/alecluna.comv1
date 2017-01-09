@@ -12,18 +12,18 @@ body {
 }
 
 h1 {
-    display: block-inline;
-    margin: 50%;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
     text-align: center;
     color: #fff;
-    border: solid 1px white;
+    border: solid 2px white;
+    border-radius: 10px;
 }
 
 .accordian {
 	width: 1200px; height: 500px;
 	overflow: hidden;
-	
-
     margin: 100px auto;
     border-radius: 10px;
 	
@@ -46,18 +46,32 @@ accordian ul { width: 2000px;}
 .accordian ul li:hover {width: 640px;}
 
 .paragraph {
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
     width: 400px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 10px;
     line-height: 2em;
     letter-spacing: 1px;
     text-align: auto;
-    margin: auto;
-    padding: 20px;
     position: center;
     color: #fff;
 
 }
 
 .otherinfo { 
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
     text-align: center;
-    margin: 0px;
+    border: solid 2px white;
+    border-radius: 10px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: auto;
+    position: center;
+    color: #fff;
 }
