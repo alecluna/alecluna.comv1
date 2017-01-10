@@ -6,7 +6,7 @@
     font-family: arial, verdana, tahoma;
 }
 
-.img1, .img2 {
+.img1, .img2, .img3 {
 
     min-height: 100%;
     position: relative;
@@ -17,7 +17,7 @@
     background-size: cover;
 }
 
-.caption1 {
+.caption1, .aboutme, .contact {
 
     position: absolute;
     left: 0;
@@ -26,7 +26,7 @@
 
 }
 
-h1, .aboutme  {
+h1 {
 
     width:  200px;
     height: 90px;
@@ -41,13 +41,15 @@ h1, .aboutme  {
 .aboutme {
 
     font-size: 31px;
-    margin: auto;
     text-align: center;
+    color: white;
+    letter-spacing: .5em;
 
+    
 }
-.header2, .header3 {
+.header2, .header3, .header4 {
 
-    background-color: slategrey;
+    background-color: #282e34;
     text-align: center;
     padding: 50px 80px;
     height: 110px;
@@ -58,6 +60,11 @@ h1, .aboutme  {
     height: 250px;
 }
 
+.header4 {
+
+    min-height: 100%;
+}
+
 .paragraph {
 
     color: white;
@@ -65,11 +72,35 @@ h1, .aboutme  {
     line-height: 2em;
 }
 
-.img1 { background-image: url("http://i.imgur.com/2v4Rgrk.jpg"); }
-.img2 { 
+.hobbies ul {
+
+    float: center;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font: 30px;
+}
+
+li { 
     
-    background-image: url("http://i.imgur.com/qzrUOm0.jpg"); 
-    min-height: 350px;
+    height: 50px;
+    text-align: center;
+}
+
+#HobbiesHeader {
+
+    font-size: 30px;
+    height: 90px;    
+    text-align: center;
+    color: white;
+}
+
+.img1 { background-image: url("http://i.imgur.com/2v4Rgrk.jpg"); }
+.img3 { background-image: url("http://i.imgur.com/Pwsmn7N.jpg"); }
+.img2 { background-image: url("http://i.imgur.com/zcJBU75.jpg");
+    
+    min-height: 100%;
 }
 
 
