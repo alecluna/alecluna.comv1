@@ -6,6 +6,20 @@
     font-family: arial, verdana, tahoma;
 }
 
+.navbar {
+
+    border: 1px solid white;
+    background-color: #282e34;
+    height: 90px;
+}
+
+topleft li {
+
+    list-style-type: none;
+    display:inline;
+    color: white;
+}
+
 .img1, .img2, .img3 {
 
     min-width: 50%;
@@ -24,6 +38,7 @@
     -o-filter: brightness(50%);
     -ms-filter: brightness(50%);
 }
+
 
 .caption1, .aboutme, .contact {
 
@@ -93,9 +108,9 @@ li {
 
 .hobbies, .Skills { color: white; }
 
-.img1 { background-image: url("http://i.imgur.com/2v4Rgrk.jpg"); }
-.img3 { background-image: url("http://i.imgur.com/Pwsmn7N.jpg"); }
-.img2 { background-image: url("http://i.imgur.com/zcJBU75.jpg");
+.img1 { background-image: url("http://i.imgur.com/Pwsmn7N.jpg"); }
+.img2 { background-image: url("http://i.imgur.com/2v4Rgrk.jpg"); }
+.img3 { background-image: url("http://i.imgur.com/zcJBU75.jpg");
     
     min-height: 100%;
 }
