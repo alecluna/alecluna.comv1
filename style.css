@@ -6,12 +6,12 @@
     font-family: arial, verdana, tahoma;
 }
 
-.img1, .img2, .img3 {
+.img1, .img2, .img3, img4 {
 
     min-width: 50%;
     min-height: 50%;
     position: relative;
-    opacity: 0.85; 
+    background-color: rgba(0.0,0.0,0.0,0.0,0.6); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,6 +99,7 @@ li {
     
     min-height: 100%;
 }
+.img4 { background-image: url("http://imgur.com/qzrUOm.jpg");  }
 
 .footer {
 
