@@ -8,16 +8,29 @@
 
 .navbar {
 
-    border: 1px solid white;
     background-color: #282e34;
     height: 90px;
+    position: static;
 }
 
-topleft li {
+.topleft { 
+    
+    border: 1px dotted white;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    position: right;
+}
 
+
+.topleft li {
+
+    border: 1px solid white;
     list-style-type: none;
-    display:inline;
     color: white;
+    float: right;
+    position: relative;    
 }
 
 .img1, .img2, .img3 {
@@ -25,7 +38,7 @@ topleft li {
     min-width: 50%;
     min-height: 50%;
     position: relative;
-    opacity: 0.85; 
+    background-color: rgba(0,0,0,0.65); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
