@@ -70,7 +70,6 @@ h1 {letter-spacing: 0.1em; }
     background-color: #282e34;
     text-align: center;
     padding: 50px 80px;
-    height: 110px;
 }
 
 .header3 {
@@ -131,5 +130,13 @@ li {
 }
 
 a { color: white; }
+
+/* media queries will save your ass for mobile lol */
+
+@media (max-width: 768px) {
+
+ /* insert normal css here */ p { }
+
+}
 
 
