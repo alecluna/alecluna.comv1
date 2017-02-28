@@ -9,7 +9,7 @@
 .navbar {
 
     background-color: #282e34;
-    height: 10%;
+    height: 14%;
     position: static;
 }
 
@@ -70,6 +70,7 @@ h1 {letter-spacing: 0.1em; }
     background-color: #282e34;
     text-align: center;
     padding: 50px 80px;
+    height: initial;
 }
 
 .header3 {
@@ -121,7 +122,7 @@ li {
 
 .footer { 
     background-color: #282e34;
-    height:  200px;
+    height: initial;
 }
 
 .media { 
@@ -133,9 +134,12 @@ a { color: white; }
 
 /* media queries will save your ass for mobile lol */
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
 
- /* insert normal css here */ p { }
+ /* insert normal css here */ .navbar{
+
+     height:20%;
+ }
 
 }
 
