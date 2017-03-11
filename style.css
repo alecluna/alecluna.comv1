@@ -44,26 +44,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.imAlec, .aboutme, .contact, .contactme {
-
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-}
-
-.aboutme, h1 {
-
-    font-size: 31px;
     text-align: center;
-    color: white;
-    letter-spacing: .5em;   
+
 }
 
-h1 {letter-spacing: 0.1em; }
+#IMALEC, #ABOUTME, #SKILLS {
+
+    font-size: 45px;
+    display: inline-block;
+    height: 100px;
+    padding-top: 25%;
+    color: white;
+    letter-spacing: 10.1px; 
+
+}
 
 .header2, .header3, .header4 {
 
@@ -136,10 +130,15 @@ a { color: white; }
 
 @media (max-width: 740px) {
 
- /* insert normal css here */ .navbar{
+ /* insert normal css here */ 
+ .navbar{  height:20%; }
+}
+#IMALEC, #ABOUTME, #SKILLS {  padding-top: 60%;  }
 
-     height:20%;
- }
+@media (max-width: 1000px) {
+
+#IMALEC, #ABOUTME, #SKILLS {  padding-top: 40%;  }
+
 
 }
 
