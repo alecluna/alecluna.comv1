@@ -3,80 +3,110 @@
 
 <head>
   <script src="https://use.fontawesome.com/2d7c5f0ed9.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title> Alec Luna</title>
-  <link href="style.css" type="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <!--<link href="style.css" type="text/css" rel="stylesheet">  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <style> body {   padding-top: 40px; }  </style>
 </head>
 
 <body>
-  <!-- The Navbar is a work in progress -->
-  <div class="navbar">
-    <div class="topleft">
-      <ul>
-        <li> <a href=#contactmeID> Contact me      </li>
-        <li> <a href=#aboutmeID>   About me        </li>
-      </ul>
-    </div>
+
+<!-- navbar html -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a href-"" class="navbar-brand"> Alec Luna </a> 
+                </div> <!-- End of Navbar Header -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#aboutme"> About Me </a></li>
+                    <li><a href="#skills"> Skills </a></li>
+                    <li><a href="#contactme"> Contact Me </a></li>
+                </ul> 
+              </div>
+     </div> <!-- End Container -->
+</nav> <!-- End Navbar -->
+
+<!-- cool fadein effect using jquery -->
+<div class="main">
+<style> div.main { display: none;} </style>
+
+
+<!-- home area -->
+<div class="jumbotron container-fluid" id="home">
+  <img src="http://i.imgur.com/Ow8C2QZ.jpg?2" class="img-circle">
+  <h1 id="text"> I'm Alec </h1>
+  <p id="text"> Always learning. </p>
+</div>  <!-- Home portion -->
+
+<!-- about me -->
+<div class="jumbotron container-fluid" id="aboutme">
+      <p id="toString">public String toString(){ <br></p>
+        <p id="text-aboutme">
+           int age = 20;<br>
+           String myEmail = "alecluna@csus.edu";<br>
+           String hobbies = "Tennis, Snowboarding, Building Computers, Going to the Gym";<br>
+           System.out.print("I am " + age + " my email is: " + myEmail + " and I like to, " + hobbies);<br>   
+  </p>
+  <p id="paren"> } </p>
   </div>
- 
-  <div class="img1">
-      <div id="IMALEC">I'm Alec</div>
+
+
+<!-- skills -->
+<div class="jumbotron container-fluid" id="skills">
+  <h2 id="text"> Here are some skills I've acquired over the years </h1>
+  <ul class="list-unstyled" id="text-list"> 
+    <li> Languages: Java, C, (Currently learning Javascript)
+    <li> Web Development: HTML, CSS, Jquery, Bootstrap
+    <li> Git: Github, Bitbucket, SourceTree (Used along side Bitbucket)
+    <li> Tools: Vim, Putty, WinSCP, VSCode, jGrasp 
+    <li> Platforms: Windows 10, Unix (Ubuntu 15, Kali)
+    </ul>
   </div>
 
-  <div class="header2">
-    <div class="paragraph"> 
-      <p>I am a college student at Sacramento State studying Computer Science. My goal is to become a full stack web developer.
-      I am currently teaching myself the front end technologies (HTML, CSS, and Javascript). I have been programming for
-      2 years with Java.
-      </p>
-    </div>
-  </div>
+<!-- inline style area -->
+<style> 
 
-  <div class="img2">
-   <a id="aboutmeID"></a>
-          <div id="ABOUTME">About Me</div>
-    </div>
+.jumbotron {  
+  
+      text-align: center;
+      /*background-image: url("http://i.imgur.com/KVj9OYr.jpg?4");*/
+      padding-bottom: 15%;
+      margin-bottom: auto;
+ } 
+.img-circle { width: 20%;  }
+#text, #text-aboutme, #toString, #paren, #text-list { color: white; }
+#aboutme    { background-color: #292B34;}
+#home, #skills  { background-color: #3498db;}
+#text-aboutme {  margin-left: 15%;}
+#toString, #paren { margin-left: 10%;}
+#text-aboutme, #toString, #paren { text-align: left;}
+#text-list { font-size: 20px;}
 
-    <div class="header3">
+</style> <!-- end of styling -->
 
-      <div class="hobbies">
+</div>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <p id="HobbiesHeader"> Hobbies: </p>
-        <ul style="list-style-type:none;">
-          <li> Snowboarding </li>
-          <li> Building Computers </li>
-          <li> Tennis </li>
-          <li> GoPro Editing </li>
-        </ul>
-      </div>
-    </div>
+<script>
+$(function() {
 
-    <div class="img3">
-      <div id="SKILLS"> Skills </div>
-    </div>
+    $('div.main').fadeIn(2000);
+});
+</script>
 
-    <div class="header4">
-      <div class="Skills">
-        <ul style="list-style-type:none;">
-
-          <li> Java </li>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> Twitter Bootstrap </li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="media">
-        <a href="https://www.linkedin.com/in/alecluna" target="_blank"><i class="fa fa-linkedin fa-5x"aria-hidden="true"></i></a>
-        <a href="https://github.com/alecluna" target="_blank"><i class="fa fa-github fa-5x"aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/whereisalec" target="_blank"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
-        <!--<a href="https://twitter.com/AlecLunaa" target="_blank"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a>-->
-        <a id="contactmeID"></a>
-      </div>
-    </div>
-    <!--<script async src="alecluna.com/main.js"></script> -->
 </body>
 
 </html>

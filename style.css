@@ -1,11 +1,73 @@
 * {
-    margin: 0px;
-    height: 100%;
+     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: arial, verdana, tahoma;
+    font-family: open sans, arial, tahoma;
+    height: 100%;
 }
 
+
+
+.container{  
+            
+    background-color: #292B34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+div.main { display: none;  }
+
+.main { 
+    border: 1px solid white;
+    height: 70%;
+    width: 70%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner { 
+
+        border: 1px solid red;
+        height: 25%;
+        width: 25%;
+        
+}
+    
+
+/*#home-section, #about-section, #name-section {  
+
+    flex: 1;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: 10px; 
+    color: white;
+}
+
+#name-section { line-height: 40px; font-size: 40px;  letter-spacing: 14px; color: #3498db }
+#aboutme-section { font-size: 22px;  }
+*/
+/*.inner { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 80%;
+      width: 80%;
+      border: 1px dotted red;
+      margin: 2.5rem 2.5rem;
+    }
+*/
+img { border-radius: 900px; }
+
+
+
+
+/*
 .navbar {
 
     background-color: #282e34;
@@ -126,11 +188,11 @@ li {
 
 a { color: white; }
 
-/* media queries will save your ass for mobile lol */
+/* media queries will save your ass for mobile lol 
 
 @media (max-width: 740px) {
 
- /* insert normal css here */ 
+ /* insert normal css here 
  .navbar{  height:20%; }
 }
 #IMALEC, #ABOUTME, #SKILLS {  padding-top: 60%;  }
