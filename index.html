@@ -5,14 +5,8 @@
   <script src="https://use.fontawesome.com/2d7c5f0ed9.js"></script>
   <title> Alec Luna</title>
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-  <!--<link href="style.css" type="text/css" rel="stylesheet"> -->
+  <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-  <style>
-    body {
-      padding-top: 40px;
-    }
-  </style>
 </head>
 
 <body>
@@ -62,7 +56,7 @@
         <div class="row">
           <div class="col-xs-12">
             <h2 id="aboutme"> About Me </h2>
-            <pre>
+            <pre style="background-color:#333">
               <span id="aboutme"> 
   var aboutMe = { 
       title: 'college student',   
@@ -94,11 +88,11 @@
               <ul class="list-unstyled" id="text-list">
                 <li> Languages: </li>
                 <ul>
-                  <li>Java, C, Vanilla Javascript </li>
+                  <li>Java, C, JS </li>
                 </ul>
                 <li> Web Development: </li>
                 <ul>
-                  <li> HTML, CSS, Jquery, Bootstrap, PHP </li>
+                  <li> HTML, CSS, Webpack, Bootstrap, LAMP Stack </li>
                 </ul>
                 <li> Database </li>
                 <ul>
@@ -155,99 +149,12 @@
       </div>
     </footer>
 
-
-    <!-- inline style here -->
-    <style>
-      #aboutme,
-      #skills,
-      #text-list,
-      #text {
-        color: white;
-      }
-
-      .jumbotron {
-        text-align: center;
-        margin-bottom: auto;
-      }
-
-      .img-circle {
-        width: 20%;
-      }
-
-      #about-me-green {
-        background-color: #26A69A;
-      }
-
-      #skills-purple {
-        background-color: #3949AB
-      }
-
-      #home {
-        background-color: #03A9F4;
-      }
-
-      pre,
-      #footer-color {
-        background-color: #333
-      }
-
-      .navbar-custom {
-        background-color: #333;
-        color: #ffffff;
-        border-radius: 0;
-      }
-
-      .navbar-custom .navbar-nav>li>a {
-        color: #fff;
-      }
-
-      .navbar-custom .navbar-nav>.active>a {
-        color: #ffffff;
-        background-color: transparent;
-      }
-
-      .navbar-custom .navbar-nav>li>a:hover,
-      .navbar-custom .navbar-nav>li>a:focus,
-      .navbar-custom .navbar-nav>.active>a:hover,
-      .navbar-custom .navbar-nav>.active>a:focus,
-      .navbar-custom .navbar-nav>.open>a {
-        text-decoration: none;
-        background-color: #eeeeee;
-      }
-
-      .navbar-custom .navbar-brand {
-        color: #eeeeee;
-      }
-
-      .navbar-custom .navbar-toggle {
-        background-color: #333;
-      }
-
-      .navbar-custom .icon-bar {
-        background-color: #eeeeee;
-      }
-    </style>
-    <!-- end of styling -->
   </div>
-
-
-
   <!-- bootstrap scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-
-  <!-- fade in effet in js 
-  <script>
-    $(function () {
-
-      //$('div.main').fadeIn();
-      $('div#background-box').fadeIn(3000);
-
-    });
-    
-  </script>
--->
+    <script type="text/javascript" src="build.js"></script>
 </body>
 
 </html>
