@@ -9,7 +9,10 @@ module.exports = {
         loaders: [
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader"
+                loader: "css-loader",
+                options: {
+                    minimize: true
+                }
             }
         ]
     }
