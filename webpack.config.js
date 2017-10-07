@@ -7,10 +7,10 @@ module.exports = {
     watch: true,
     module: {
         loaders: [
-            {
-                test: /\.css$/,
-                loader: "style-loader!css-loader"
-            }
+            { test: /\.css$/, loader: "style-loader!css-loader" }
         ]
-    }
+
+    },
+
+
 };

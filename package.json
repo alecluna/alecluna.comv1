@@ -19,7 +19,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/alecluna/alecluna.com#readme",
   "devDependencies": {
-    "css-loader": "^0.28.4",
+    "css-loader": "^0.28.7",
     "style-loader": "^0.18.2"
   }
 }

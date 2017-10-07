@@ -4,7 +4,7 @@
 <head>
   <script src="https://use.fontawesome.com/2d7c5f0ed9.js"></script>
   <title> Alec Luna</title>
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
   <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -17,20 +17,26 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
         <a href- "" class="navbar-brand"> Hello </a>
       </div>
       <!-- End of Navbar Header -->
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#aboutme"> About Me </a></li>
-          <li><a href="#skills"> Skills </a></li>
-          <li><a href="#contactme"> Contact Me </a></li>
+          <li>
+            <a href="#aboutme"> About Me </a>
+          </li>
+          <li>
+            <a href="#skills"> Skills </a>
+          </li>
+          <li>
+            <a href="#contactme"> Contact Me </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -43,11 +49,13 @@
 
 
     <!-- home area -->
-    <div class="jumbotron container-fluid" id="home">
-      <img src="http://i.imgur.com/Ow8C2QZ.jpg?2" class="img-circle">
-      <h1 id="text"> I'm Alec </h1>
-      <h4 id="text"> Aspiring Software Developer </h4>
-    </div>
+    <section id="home">
+      <div class="container">
+        <img src="http://i.imgur.com/Ow8C2QZ.jpg?2" class="img-circle">
+        <h1 id="text"> I'm Alec </h1>
+        <h4 id="text"> Aspiring Software Developer </h4>
+      </div>
+    </section>
     <!-- Home portion -->
 
     <!-- about me -->
@@ -58,9 +66,9 @@
             <h2 id="aboutme"> About Me </h2>
             <pre style="background-color:#333">
               <span id="aboutme"> 
-  var aboutMe = { 
+ const aboutMe = { 
       title: 'college student',   
-      school: 'Sacramento State University', 
+      school: 'CSUS', 
       major: 'Computer Science', 
       year: '4th year',
       hobbies: 
@@ -86,29 +94,41 @@
             <p id="skills"> A few skills and technologies I've picked up while in school. </p>
             <div class="container">
               <ul class="list-unstyled" id="text-list">
-                <li> <b> Languages: </b> </li>
+                <li>
+                  <b> Languages: </b>
+                </li>
                 <ul>
-                  <li> JavaScript, Java, C </li>
+                  <li> JavaScript(ES6), Java, C </li>
                 </ul>
-                <li> <b> Web Development: </b> </li>
+                <li>
+                  <b> Web Development: </b>
+                </li>
                 <ul>
-                  <li> HTML, CSS, Node.js, Bootstrap 3, LAMP Stack </li>
+                  <li> HTML, CSS, React, Bootstrap 3, LAMP Stack, Node.js </li>
                 </ul>
-                <li> <b> Database </b> </li>
+                <li>
+                  <b> Database </b>
+                </li>
                 <ul>
                   <li> SQL, Remedyforce CMDB </li>
                 </ul>
-                <li> <b> Git: </b> </li>
+                <li>
+                  <b> Git: </b>
+                </li>
                 <ul>
                   <li> Github, Bitbucket, SourceTree </li>
                 </ul>
-                <li> <b> Tools: </b> </li>
+                <li>
+                  <b> Tools: </b>
+                </li>
                 <ul>
-                  <li>Webpack, NPM, Vim, VSCode, jGrasp, PuTTy </li>
+                  <li>Webpack, Babel, NPM, Vim, VSCode, jGrasp, PuTTy, Make </li>
                 </ul>
-                <li> <b> Platforms: </b> </li>
+                <li>
+                  <b> Platforms: </b>
+                </li>
                 <ul>
-                  <li> Windows 10, Ubuntu Linux </li>
+                  <li> Windows 10, Ubuntu 14 LTS </li>
                 </ul>
               </ul>
             </div>
@@ -123,15 +143,35 @@
         <div class="row">
           <div class="col-md-12">
             <h2 id="text-contact-me"> Contact </h2>
-            <p> Reach out to me with the following:
-              <p>
-                <ul class="list-inline" id="fonts">
-                  <li> <a href="https://github.com/alecluna"> <i class="fa fa-github fa-3x" aria-hidden="true" style="color:#337ab7;"></i> </a>                    </li>
-                  <li> <a href="https://www.instagram.com/whereisalec/"> <i class="fa fa-instagram fa-3x" aria-hidden="true"  style="color:#337ab7;"></i> </a>                    </li>
-                  <li> <a href="https://twitter.com/AlecLunaa"> <i class="fa fa-twitter fa-3x" aria-hidden="true" style="color:#337ab7;"></i></a>                    </li>
-                  <li> <a href="https://www.facebook.com/alec.luna.90"> <i class="fa fa-facebook-square fa-3x" aria-hidden="true" style="color:#337ab7;"></i></a>                    </li>
-                  <li> <a href="https://www.linkedin.com/in/alecluna"> <i class="fa fa-linkedin fa-3x" aria-hidden="true" style="color:#337ab7;"></i></a>                    </li>
-                </ul>
+            <p id="text-contact-me"> Reach out to me at one of the following:
+            <p>
+              <ul class="list-inline" id="fonts">
+                <li>
+                  <a href="https://github.com/alecluna">
+                    <i class="fa fa-github fa-3x" aria-hidden="true" style="color: white;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/whereisalec/">
+                    <i class="fa fa-instagram fa-3x" aria-hidden="true" style="color:white;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/AlecLunaa">
+                    <i class="fa fa-twitter fa-3x" aria-hidden="true" style="color: white;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/alec.luna.90">
+                    <i class="fa fa-facebook-square fa-3x" aria-hidden="true" style="color: white;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/alecluna">
+                    <i class="fa fa-linkedin fa-3x" aria-hidden="true" style="color: white;"></i>
+                  </a>
+                </li>
+              </ul>
           </div>
         </div>
       </div>
@@ -154,7 +194,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="build.js"></script>
+  <script type="text/javascript" src="build.js"></script>
 </body>
 
 </html>

@@ -1,38 +1,70 @@
 body {
       padding-top: 40px;
+    }
+    
+    .img-circle {
+      -webkit-animation: fadein 2s; 
+      -moz-animation: fadein 2s; 
+       -ms-animation: fadein 2s; 
+        -o-animation: fadein 2s; 
+           animation: fadein 2s;
     } 
+    #text {
+
+      -webkit-animation: fadein 3s; 
+      -moz-animation: fadein 3s; 
+       -ms-animation: fadein 3s; 
+        -o-animation: fadein 3s; 
+           animation: fadein 3s;
+    }
+    .container {
+
+      -webkit-animation: fadein 6s; 
+         -moz-animation: fadein 6s; 
+          -ms-animation: fadein 6s; 
+           -o-animation: fadein 6s; 
+              animation: fadein 6s;
+  }
+  
+  @keyframes fadein {
+      from { opacity: 0; } 
+      to   { opacity: 1; }
+  }
+
+      
       #aboutme,
       #skills,
       #text-list,
-      #text {
+      #text,
+      #text-contact-me {
         color: white;
+      }
+
+      #contact-white { 
+        padding-bottom: 2em;
+        padding-top: 2em;
+      }
+
+     
+     body {
+      background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
       }
 
       #home {
         text-align: center;
-        margin-bottom: 0;
+       padding-top: 5em;
 
+      
       }
 
       .img-circle {
         width: 20%;
       }
 
-      #about-me-green {
-        background-color: #26A69A;
-      }
-
-      #skills-purple {
-        background-color: #3949AB
-      }
-
-      #home {
-        background-color: #03A9F4;
-      }
-
+   
       pre,
       #footer-color {
-        background-color: #333
+        background-color: rgb(243, 38, 82)
       }
 
       .navbar-custom {
