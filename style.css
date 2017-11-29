@@ -8,6 +8,7 @@ body {
        -ms-animation: fadein 2s; 
         -o-animation: fadein 2s; 
            animation: fadein 2s;
+           width: 25%;
     } 
     #text {
 
@@ -30,13 +31,12 @@ body {
       from { opacity: 0; } 
       to   { opacity: 1; }
   }
-  @media only screen 
+  @media screen 
   and (min-device-width : 300px) 
-  and (max-device-width : 800px) 
+  and (max-device-width : 730px) 
   {  .img-circle {
-    width: 50%;}
+    width: 40%;}
   }
-
       
       #aboutme,
       #skills,
@@ -58,15 +58,13 @@ body {
 
       #home {
         text-align: center;
-       height: 100vh;
-      }
-      #picture-container {align-items: center}
-   #about-me-green,
-   #home { height: 100vh;}
+       padding-top: 5em;
 
-      pre,
-      #footer-color {
-        background-color: rgb(243, 38, 82)
+      
+      }
+   
+      pre {
+        background-color: #333;
       }
 
       .navbar-custom {
